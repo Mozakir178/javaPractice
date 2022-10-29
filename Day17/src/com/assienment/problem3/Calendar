@@ -1,0 +1,23 @@
+
+Date and Time API ;
+	In java language we have a special API to handle all the work related to the date and time.
+	We can perform so many task on date and time with the help of this API.
+	Similarly we can add remove date from the current date.
+	To add date we simple need to use the API's inbuild method.
+	
+	To add the Weeks in the current date we have different method.
+	We are using simplest one.
+	In this we just need to create one object of LocatDate class with current date.
+	Then we can use the inbuild method to add weeks , months and years.
+	
+	
+		LocalDate now = LocalDate.now() ;
+		LocalDate week = now.plusWeeks(1) ;
+		LocalDate month = now.plusMonths(1) ;
+		LocalDate year = now.plusYears(1) ;
+		
+		System.out.println("Current date is: "+now)  ;
+		System.out.println("Date after 1 week: "+week) ;
+		System.out.println("Date after 1 month: "+month) ; 
+		System.out.println("Date after 1 year: "+year) ;
+		

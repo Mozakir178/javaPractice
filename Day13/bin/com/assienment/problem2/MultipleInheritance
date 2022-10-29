@@ -1,0 +1,25 @@
+
+
+Multiple Inheritance :
+
+	Java only support Single Inheritance on class level.
+	Java does not support Multiple Inheritance.
+	As we all know that in java we can only extends a single class.
+	In this way we can only inherited 1 class at max.
+	So we can not inherited more than 1 class at a time that is why multiple inheritance is not supported in java.
+	But we can achieve this multiple inheritance using the interface.
+	We can implements as many interface as we  want.
+	so this is why Java does not support Multiple inheritance.
+	
+
+	ex: 
+		public class Child extends Parent{
+		
+		}
+		
+		public class Ch1 extends P1, p2{ // this will give error.
+		}
+		
+		public class Ch2 extends p1 implement I1, I2,I3{  //It will work
+		
+		}

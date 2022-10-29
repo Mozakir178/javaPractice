@@ -1,0 +1,32 @@
+
+
+ArrayList:
+	ArrayList is implementaion of the List as well as the Collection.
+	But ArrayList don't have its own method.
+	ArrayList is one of the most used Collection.
+	It just implements the interface.
+	ArrayList is flexible in size.
+	ArrayList provide index based access.
+	ArrayList take O(N) time complexity to perform add at perticular index.
+	ArrayList mentain the order of insertion.
+	
+	
+	Ex.
+		List<Integer> arrayList = new ArrayList<>() ;
+		
+	we have created the ArrayList with default length of 10.
+	
+	
+LinkedList:
+	LinkedList is also the implementation of the List and Collection.
+	LinkedList also implements Deque interface.
+	But LinkedList have its own method also.
+	It is also very Importent Collection type.
+	LinkedLlist is also flexible in size.
+	When we add new element it add that element in the form of node.
+	Because of this advantage when we add a perticular element it only take O(N).
+	LinkedList also mantain the order of insertion.
+	
+	Ex.
+		List<Integer> linkedList = new LinkedList<>() ;
+		we have created the empty linkedlist.
