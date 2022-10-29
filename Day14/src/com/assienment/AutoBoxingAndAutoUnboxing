@@ -1,0 +1,43 @@
+
+
+Q3) Explain AutoBoxing and Auto UnBoxing with Examples.
+
+AutoBoxing:
+	As we know collection does not support the premetive data type.
+	So if want to use premative data type inside collection we need to change those premative data type.
+	We also know that for every premative data type there is wrapper class in java.
+	So converting the premative data type into the respected wrapper class is nothing but the Boxing.
+	Before java 1.5 we needed to do it manually. 
+	But in java 1.5 Auto Boxing and unboxing is introduce.
+	Now we can change the premative data type into respected wrapper class autometically.
+	This is nothing but Auto Boxing.
+	
+	Ex. 
+		Before Java 1.5 ;
+		int i = 10 ;
+		Integer i1 = Integer.valueOf(i) ;
+		
+		After Java 1.5 ;
+		int i = 10 ;
+		Integer i1 = i ;
+		This is nothing but Auto Boxing.
+		
+		
+Auto UnBoxing:
+	Some time we need to perform some methometical or other operation which can not perform on wrapper class.
+	Then we need to change the wrapper class into the premative data type.
+	So converting the wrapper class object into the premative data type is nothing but the Unbocxing.
+	Again before Java 1.5 the unboxing was manual. 
+	But now we can Autometically convert the wrapper class into premative data type.
+	Converting the wrapper class into respected premetive data type. 
+	This process is nothing but Auto unboxing.
+	 
+	 Ex.
+	 	Before Java 1.5 
+	 	Integer i1 = 10 ;
+	 	int i = Integer.intValue(i1) ;
+	 	
+	 	After Java 1.5 
+	 	Integer i1 = 10 ;
+	 	int i = i1 ;
+	 	This is nothing but Auto Unboxing.

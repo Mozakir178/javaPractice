@@ -1,0 +1,43 @@
+
+
+Comparable:
+	Comparable is an interface in java.lang package.
+	Comparable is implements when we need to make our class comparable.
+	When we need to make a TreeSet of our class object then we need to implement this interface.
+	By using Comparable we can compare our object by any single sequence.
+	We need to implement this interface in original class.
+	Inside our class we need to Override the compareTo method.
+	
+	Example.	
+		
+		class Product implements Comparable<Product>{
+				int productPrice ;
+				String productName ;
+				@Override
+				public int compareTo(Product product){
+					return (int) ( productPrice - product.productPrice).
+					}
+				}
+				
+		above is the example of the implementation of the comparable interface.
+		
+		
+Comprator:
+	Comparator is an interface in java.util.Collections package.
+	Comparator is implements when we need to compare two or more object of our class.
+	When we need to sort a List which contain our class we can implements comparator interface.
+	We can compare our class object in many ways.
+	We don't need to change our original class to implements this interface.
+	We can create another class and implements this interface.
+	and when we need to compare object then we can pass that class to compare.
+	inside secondary class we need to override compare method.
+	
+		Example.
+			class Compare implements Comparator<Product>{
+				@Override
+				public int compare(Product p1 , Product p2){
+				return (int) ( p1.productPrice  - p2.productPrice) ;
+				}
+			}
+			
+		Above is the example of implementation of the comparator interface.

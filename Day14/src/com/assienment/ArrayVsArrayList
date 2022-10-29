@@ -1,0 +1,29 @@
+
+Q2) What is the difference between ArrayList and Array?
+
+
+Array : 
+	
+	Array is nothing but the reference object which can store multiple object.
+	To store multiple object in a single object we use array.
+	Array is fixed in size.
+	There is no specific method inside the array.
+	Even to print Array we need to run a loop.
+	we can not increase or decrease the size of array unless creating new array.
+	
+	Ex. 
+		int[] arr = new int[5] //this will create the array of fixed size 5.
+	
+	
+ArrayList : 
+	ArrayList is one implementation of collection Interface.
+	Arraylist also implement the List interface.
+	One of the biggest difference between ArrayList and Array is that ArrayList is dynamic in size.
+	We can increase the size of the ArrayList.
+	As ArrayList implement the collection and List so we have all the method we can use on ArrayList.
+	Like Add , remove, get, indexOf etc.
+	
+	ArrayList<Integer> list = new ArrayList<Integer>() ; // this will create a list of default size 10 which can be increase.
+	
+	ArrayList<Integer> list1 = new ArrayList<Integer>(5) ; // this will create a list of manual size 5 which can be increase.
+	

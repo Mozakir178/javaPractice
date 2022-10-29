@@ -1,0 +1,48 @@
+
+
+Marker interface:
+	
+	Marker interface special kind of interface.
+	Marker interface is nothing but an empty interface. 
+	A interface with only body.
+	Marker interface is used to group together 2 or more object.
+	Marker interface is use to perform some special operation like normalization and cloning.
+	
+	Ex.
+		Grouping.java
+------------------------------------------------
+
+		public interface Grouping{
+		
+		}
+		
+		
+		Object1.java
+-------------------------------------------------
+
+		public class Object1 impliment Grouping {
+		
+			void print(){
+			System.out.println("This is the Object1 class of group Grouping") ;
+			
+			}
+		
+		}
+		
+		
+				
+		Object2.java
+-------------------------------------------------
+
+		public class Object2 impliment Grouping {
+		
+			void print(){
+			System.out.println("This is the Object2 class of group Grouping") ;
+			
+			}
+		
+		}
+		
+	Here you can see we have implimented the Grouping interface which is empty and now we can group together this two object.
+		
+		

@@ -1,0 +1,22 @@
+
+	
+	equsls() :
+		equals() is the method available in the Object which is the parent class of all the classes.
+		equals() method is use to check whether two object is content is same or not.
+		equals() method give true if both contain are equal or not.
+		equals() method give false if both object are not equals.
+		
+		Ex.
+			Object1.equals(Object2) ;
+		
+		
+	HashCode() :
+		HashCode() is also a method available in the Object class.
+		We can Override this method in our class also.
+		HashCode() provide the unique code for each object whenever they made by new keyword.
+		If a Object is created using other object then they will have same HashCode.
+		if two object have same HashCode then only we can say that both object are logically equals.
+		
+		Ex.
+			int object1HashCode = Object1.hashCode() ;
+			int object2HashCode = Object2.hashCode() ;
