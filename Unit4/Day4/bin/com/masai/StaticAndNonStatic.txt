@@ -1,0 +1,25 @@
+
+
+Difference between Static and Non-Static Variable:
+
+
+Static Variable :-
+	 When any variable is declare with the keyword static inside class and outside any method it is called as Static Variable.
+	 Static variable also call as Class variable.
+	 Static variable always get memory in the ram at compilation phase.
+	 we can directly call Static variable inside a method of same class. 
+	 we can directly call static variable with class name inside other class.
+	 Static variable share the same value for all the object created using same class.
+	 It means if value of Static variable change in one object it will reflect on other objects of same class as well.
+	 
+	 
+Non-Static Variable :-
+	 When a variable is declare without static keyword inside a class and outside of any function this variable is called as Non-Static variable.
+	 Non-Static variable also called as Instance variable.
+	 Non-Static variable are only get memory in ram when we invoke them.
+	 We can not directly access this non-static variable inside any method or class.
+	 To use this variable we need to create the object of the same class so that all non-static variable could load in the ram.
+	 To use non-static variable we need to use the name of the object.
+	 Non-Static variable contain different value for different object.
+	 Means for object1 the value of non static variable is different and for object2 value of non static variable is different.
+	 

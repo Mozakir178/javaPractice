@@ -1,0 +1,27 @@
+Q1) Explain Type casting and its types with examples?
+
+Ans) 
+If we want to change the type of the idendifier we use type casting.
+There are 2 type of type casting in the JAVA laguage.
+1- Implicit type casting.
+2- Explecit type casting.
+
+Implicit type casting :-
+    In Java language we can not directly change type of the varieble like javascript. Here we need to be specific about the type of the varieble. If we want to convert smaller type varieble into bigger type varieble then we can use Implicit type casting. In which we can declear new varible with requrired type and we can assign value of current element to that new created varible.
+
+    ex.
+
+    byte number = 100 ;
+    int newNumber = number ;
+
+    In this way we can do if we are converting smaller type to bigger type.
+
+
+    Explecit type casting :-
+        If we want to convert the bigger type to smaller type like converting int to byte then we can not directly do that. for this we need to Explecitly tell to the program that we want to convert bigger type to smaller type. this is called Explecit type casting.
+
+    ex.
+        int number = 50 ;
+        byte newNumber = (byte) number ;
+
+    In this way we can type cast in the java laguage.

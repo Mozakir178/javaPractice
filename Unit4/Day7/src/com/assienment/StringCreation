@@ -1,0 +1,37 @@
+st
+
+        Is there any difference between creating a string with and without a new operator?  
+        Explain with an example.
+
+        Ans )
+        	In JAVA there are 2 method in which you can create String object.
+        	1- Direct or without new Operator ;
+        	2- Object Creation or using new Operator ;
+        	
+        	1- Direct or without new Operator : 
+        		This is one of the method of declaring the String variable.
+        		In this method you simply need to Write String keyword after that write identifier.
+        		And after that simply write the String in double quote i.e. " "  ;
+        		When we declare String using this method only one object get created .
+        		And this String get its memory in the String constant pool area.
+        		When we declare Same string again then this String value is get assign to that variable also.
+        		
+        		
+        	Ex.
+        		String str1 = "This is str1" ;
+        		
+        	2- Object creation or using new Operator : 
+        		This is the second method of creating the String object.
+        		In this method we create String same as creating any other object.
+        		First we write String after that identifier.
+        		Then we write new key word then inside constructor we write our string in double quote.
+        		When we Declare String using this method two object get created.
+        		One in the String constant pool area.
+        		Second inside heap memory.
+        		
+        		Ex.
+        			String str2 = new String("This is str2") ;
+        		
+        		
+        
+        

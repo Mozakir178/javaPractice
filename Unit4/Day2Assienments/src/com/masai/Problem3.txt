@@ -1,0 +1,27 @@
+Q3) Explain the difference between local and instance variables?
+
+Ans)
+    As we know there are 2 type of variables in the javascript laguage. which is local variables and Global variables. But JAVA laguage does not support Global variables instance it support instance variables and static variables and local variables.
+
+    local variables: 
+        If you declear any variable inside a Method than this variable is called as Local variables in JAVA. Local variable are nothing but block level variables. Every local variable must initialize before using it. otherwise compiler will throw error. local variable get storage at compilation phases.
+
+ex.
+    class Main{
+        public static void main(String[] args){
+            int variableName = 50;
+            // this varible is an example of local variable
+        }
+    }
+
+    Instance variable:
+        If you declear any variable outside the Method and inside class than this new variable is called as instance variable to that class. Instance variables gets its storage in JVM. we can not directly use Instance variable if it is not static.
+
+ex.
+class Main{
+    int someVaribale = 10 ;
+        // This is an instance variable.
+        public static void main(String[] args){
+           
+        }
+    }
